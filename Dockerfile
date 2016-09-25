@@ -1,4 +1,3 @@
 FROM centos:centos7
 
-ENTRYPOINT ["container-entrypoint"]
-CMD ["/bin/bash"]
+RUN ["/bin/bash", "-c", "echo hello"]
