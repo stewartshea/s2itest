@@ -1,3 +1,3 @@
-FROM debian:testing
+FROM centos:centos7
 
 CMD ["/bin/bash"]
