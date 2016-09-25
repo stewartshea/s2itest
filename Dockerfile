@@ -1,4 +1,4 @@
 FROM centos:centos7
 
-RUN ["yum install -y httpd"]
-RUN ["httpd"]
+RUN ["echo Sleeping"]
+RUN ["sleep 60"]
