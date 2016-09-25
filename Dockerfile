@@ -1,3 +1,3 @@
 FROM centos:centos7
  
-RUN /bin/sh -c "while true; do echo hello world; sleep 1; done"
+RUN /bin/sh -c "for i in `seq 1 60`; do echo hellp world; sleep 1; done"
