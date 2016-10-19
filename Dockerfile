@@ -7,7 +7,4 @@ LABEL name="CentOS Base Image" \
     license="GPLv2" \
     build-date="20160906"
 
-
-ADD sleep.sh .
-
-ENTRYPOINT ["sh", "sleep.sh"]
+CMD ["/bin/bash"]
