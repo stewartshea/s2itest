@@ -1,4 +1,4 @@
-FROM 172.51.0.2:5000/testing/alpine
+FROM 172.51.0.2:5000/testing/alpine --insecure
 
 ADD sleep.sh .
 
