@@ -1,4 +1,5 @@
-FROM debian:latest
- 
-ADD rootfs.tar.xz /
-CMD ["/sbin/init"]
+FROM alpine:3.3
+
+ADD sleep.sh .
+
+ENTRYPOINT ["sh", "sleep.sh"]
