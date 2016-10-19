@@ -1,4 +1,4 @@
-FROM alpine:3.3
+FROM testing/alpine
 
 ADD sleep.sh .
 
