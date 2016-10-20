@@ -8,6 +8,6 @@ LABEL name="CentOS Base Image" \
     build-date="20160906"
 ADD sleep.sh .
 
-ENTRYPOINT ["sh", "sleep.sh"]
+ENTRYPOINT ["sh", "sleep2.sh"]
 
 #CMD ["/bin/bash"]
