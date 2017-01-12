@@ -6,6 +6,8 @@ LABEL name="CentOS Base Image" \
     vendor="CentOS" \
     license="GPLv2" \
     build-date="20160906"
+RUN yum install -y net-tools 
+
 ADD sleep.sh .
 
 ENTRYPOINT ["sh", "sleep.sh"]
