@@ -1,4 +1,4 @@
-FROM centos7
+FROM centos
 MAINTAINER https://github.com/CentOS/sig-cloud-instance-images
 #ADD centos-7-docker.tar.xz /
 
