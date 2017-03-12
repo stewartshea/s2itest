@@ -1,6 +1,5 @@
-FROM centos
+FROM centos7
 MAINTAINER https://github.com/CentOS/sig-cloud-instance-images
-#ADD centos-7-docker.tar.xz /
 
 LABEL name="CentOS Base Image" \
     vendor="CentOS" \
